@@ -1,0 +1,121 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background: rgb(70, 68, 68);
+    }
+    
+    header {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 150px;
+    }
+    
+    header ul {
+        margin-top: 30px;
+    }
+    
+    header ul li {
+        display: inline-block;
+        list-style: none;
+    }
+    
+    header ul a {
+        text-decoration: none;
+        margin: 8px;
+        border: 2px solid rgb(78, 76, 76);
+        padding: 10px;
+        color: rgb(27, 26, 26);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        shape-outside: #000;
+    }
+    
+    header ul a:hover {
+        box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        background: rgb(255, 255, 255);
+        width: 400px;
+        height: 400px;
+        transform: translate(-50%, -50%);
+        padding-top: 30PX;
+        opacity: 10;
+        border-radius: 8px;
+    }
+    
+    form {
+        margin-top: 10px;
+        position: relative;
+        top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #cad {
+        margin-top: 10px;
+    }
+    
+    input {
+        position: relative;
+        margin: 10px;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    input[type=text] {
+        width: 200px;
+        height: 30px;
+        border: solid 1px silver;
+        border-radius: 10px;
+    }
+    
+    input[type=password] {
+        width: 200px;
+        height: 30px;
+        border: solid 1px silver;
+        border-radius: 10px;
+    }
+    
+    form input:focus {
+        background: rgb(175, 231, 175);
+    }
+    
+    #but {
+        margin-top: 20px;
+        width: 160px;
+        height: 30px;
+        text-align: center;
+        color: rgb(78, 72, 72);
+        text-decoration: none;
+        border: solid 1px rgb(24, 170, 90);
+        border-radius: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: arial;
+        background-color: rgb(24, 170, 90);
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img {
+        position: relative;
+        left: 10px;
+        margin: 0;
+    }
