@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(70, 68, 68);
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+}
+
+header ul {
+    margin-top: 30px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    margin: 8px;
+    border: 2px solid rgb(78, 76, 76);
+    padding: 10px;
+    color: rgb(27, 26, 26);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    shape-outside: #000;
+    border-radius: 8px;
+}
+
+header ul a:hover {
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+form {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-left: 10px;
+    width: 80vw;
+    display: block;
+    background-color: blue;
+}
+
+input[type=text] {
+    margin: 10px auto;
+}
+
+#telefone {
+    display: inline-block;
+}
+
+input[type=email] {
+    margin: 10px;
+}
+
+input[type=password] {
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+}
+
+fieldset {
+    width: 90%;
+    height: 300px;
+}
