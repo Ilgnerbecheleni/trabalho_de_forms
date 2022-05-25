@@ -43,33 +43,83 @@ form {
     position: relative;
     top: 20px;
     left: 20px;
-    padding-left: 10px;
-    width: 80vw;
+    padding: 10px;
+    width: 800px;
+}
+
+input {
     display: block;
-    background-color: blue;
-}
-
-input[type=text] {
-    margin: 10px auto;
-}
-
-#telefone {
-    display: inline-block;
-}
-
-input[type=email] {
-    margin: 10px;
+    margin: 5px;
+    width: 200px;
+    background: #dbdbcf;
+    height: 26px;
+    border: none;
+    border-radius: 4px;
 }
 
 input[type=password] {
-    margin: 10px;
+    width: 200px;
+    background: #dbdbcf;
+}
+
+input[type=text] {
+    width: 580px;
+    background: #dbdbcf;
+}
+
+input[type=email] {
+    width: 480px;
+    background: #dbdbcf;
+}
+
+input[type=submit] {
+    display: inline;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    background-color: rgb(21, 109, 21);
+    color: white;
+}
+
+input[type=reset] {
+    display: inline;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    background-color: rgb(21, 109, 21);
+    color: white;
 }
 
 select {
-    margin: 10px;
+    display: block;
+    width: auto;
+    background: #dbdbcf;
+    height: 25px;
+    margin: 8px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
 }
 
 fieldset {
+    padding-top: 18px;
+    padding-left: 18px;
     width: 90%;
-    height: 300px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
