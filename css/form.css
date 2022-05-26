@@ -43,7 +43,7 @@ form {
     position: relative;
     top: 20px;
     left: 10px;
-    width: 900px;
+    width: 1000px;
 }
 
 fieldset {
@@ -55,34 +55,44 @@ fieldset {
 
 label {
     display: inline-block;
-    width: 120px;
+    width: 130px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 5px;
 }
 
 input {
     display: inline-block;
     margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    height: 25px;
 }
 
 input[type=text] {
-    width: 600px;
+    width: 710px;
 }
 
 input[type=email] {
-    width: 600px;
+    width: 710px;
 }
 
 input[type=password] {
-    width: 235px;
+    width: 280px;
+    margin-right: 3px;
 }
 
 div {
     margin: 10px;
 }
 
-#curso select {
-    width: 200px;
+select {
+    position: relative;
+    left: -3px;
+    width: 280px;
     background: #dbdbcf;
-    height: 30px;
+    height: 28px;
     margin-left: 0;
 }
 
@@ -120,8 +130,4 @@ legend {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-#curso {
-    width: 115px;
 }
