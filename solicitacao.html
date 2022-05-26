@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/solicitacao.css">
+    <title>Solicitação de Segunda Chamada</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/ifnmg.png" alt="" class="img">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Login.html">Aluno</a></li>
+            <li><a href="LoginColaborador.html">Colaborador</a></li>
+            <li><a href="">Sobre</a></li>
+        </ul>
+
+
+    </header>
+
+    <form action="index.html">
+
+        <fieldset>
+            <legend>Solicitação</legend>
+            <label>Data da Prova:</label><input type="date" id="date1">
+            <label>Data da Solicitação:</label><input type="date">
+            <label for="">Disciplina:</label><input type="text">
+
+            <label for="curso" ID="curso"> Curso:</label>
+            <Select id="curso">
+        <option value=""> </option>
+        <option value="">SISTEMAS DE INFORMAÇÂO</option>
+        <option value="">ADMINISTRAÇÃO</option>
+        <option value="">ENG. CIVIL</option>
+
+</Select>
+
+            <label for="area">Motivo da Ausência:  <textarea name="" id="area" cols="50" rows="10"></textarea></label>
+            <label for="" id="label">Comprovante:</label><input type="file" id="fileUploaded" />
+
+            <div class="but"> <input type="submit" value="Enviar"> <input type="reset"></div>
+        </fieldset>
+
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
