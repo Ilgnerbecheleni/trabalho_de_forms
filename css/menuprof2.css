@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(70, 68, 68);
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+}
+
+header ul {
+    margin-top: 30px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    margin: 8px;
+    border: 2px solid rgb(78, 76, 76);
+    padding: 10px;
+    color: rgb(27, 26, 26);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    shape-outside: #000;
+    border-radius: 8px;
+}
+
+header ul a:hover {
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(42, 42, 54);
+    height: 100%;
+    width: 280px;
+}
+
+nav table {
+    border: solid 2px white;
+    width: auto;
+    border-collapse: collapse;
+}
+
+nav table td {
+    border: solid 2px white;
+    width: 280px;
+    margin: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav table td a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav table th {
+    border: solid 2px white;
+    width: 280px;
+    margin: 12px;
+}
+
+.selection {
+    background-color: rgb(137, 145, 145);
+}
+
+form {
+    top: 20px;
+    position: relative;
+    left: 300px;
+    width: 500px;
+}
+
+fieldset {
+    padding-top: 18px;
+    padding-left: 18px;
+    width: 90%;
+    border-radius: 8px;
+    border: solid 3px rgb(6, 247, 6);
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.org {
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-areas: "lbl1 txt1""lbl2 txt2""lbl3 txt3" "div-but div-but";
+    gap: 10px;
+}
+
+label {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    ;
+    color: white;
+}
+
+input:focus {
+    background: rgb(178, 211, 178);
+    color: white;
+    border: none;
+}
+
+#lbl1 {
+    grid-area: lbl1;
+    text-align: right;
+    width: 150px;
+}
+
+#lbl2 {
+    grid-area: lbl2;
+    text-align: right;
+}
+
+#lbl3 {
+    grid-area: lbl3;
+    text-align: right;
+}
+
+#txt1 {
+    grid-area: txt1;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#txt2 {
+    grid-area: txt2;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#txt3 {
+    grid-area: txt3;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#div-but {
+    position: relative;
+    grid-area: div-but;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div input[type=submit] {
+    display: inline;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: solid seagreen 1px;
+    letter-spacing: 1.3px;
+    background-color: rgb(21, 109, 21);
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+div input[type=reset] {
+    display: inline;
+    margin: 10px;
+    border: solid seagreen 1px;
+    border-radius: 4px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+    background-color: rgb(21, 109, 21);
+    color: white;
+}

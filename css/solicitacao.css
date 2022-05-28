@@ -52,6 +52,7 @@ fieldset {
     padding-top: 18px;
     padding-left: 18px;
     border-radius: 8px;
+    border: solid 3px rgb(6, 247, 6);
 }
 
 label {
